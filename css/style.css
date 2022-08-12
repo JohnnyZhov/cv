@@ -1,0 +1,342 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#figure-sizing
+{
+    width: 450px;
+    height: 80px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    background-color: rgb(18, 102, 241, 0.5);
+}
+
+#titleNav
+{
+    font-size: 1.5em;
+    color: rgb(151, 148, 148);
+}
+
+#titleNav:hover
+{
+    color: white;
+    background-color: rgb(223, 35, 35);
+}
+
+#navmenu
+{
+    font-size: 1.5em;
+}
+
+.nav-item:hover
+{
+    color: white;
+    background-color: rgb(223, 35, 35);
+}
+
+#myPortfolio
+{
+    font-size: 5em;
+	text-shadow: 2px 2px 4px #000;
+}
+
+    #learn, #learn2, #learnTextBlock, #learnTextBlock2
+    {
+        padding: 40px;
+    }
+
+    #projectBlock, #skillsBlock
+    {
+        font-size: 4em;
+        -moz-box-shadow: 2px 2px 4px #000;
+        -webkit-box-shadow:2px 2px 4px #000;
+        text-shadow: 2px 2px 4px #000;
+    }
+
+    #project1Title:hover 
+    {
+        color: rgb(223, 35, 35);
+        text-shadow: none;
+    }
+
+    #alignmentProject2:hover
+    {
+        color:rgb(0, 0, 0);
+    }
+
+        #project1
+        {
+            margin: auto 2px;
+            font-size: 3em;
+            -moz-box-shadow: 2px 2px 4px rgb(8, 29, 49);
+            -webkit-box-shadow:2px 2px 4px rgb(5, 21, 36);
+            text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        }
+
+            #project2
+            {
+                padding: 10px;
+                font-size: 3em;
+                -moz-box-shadow: 2px 2px 4px rgb(8, 29, 49);
+                -webkit-box-shadow:2px 2px 4px rgb(5, 21, 36);
+                text-shadow: 2px 2px 4px rgb(0, 0, 0);
+            }
+
+            #imgWix1 
+            {
+                width: 70px;
+                height: 70px;
+            }
+
+            #imgWix2
+            {
+                width: 70px;
+                height: 70px;
+            }
+
+#alignContact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/contactBackground.JPG);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: auto;
+}
+
+#contactInfo
+{
+    width: 500px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    background-color: rgba(123,123,37, 0.5);
+}
+
+fieldset input
+{
+    width: 60%;
+}
+
+#sectionContact ul
+{
+    padding-left: 15px;
+    margin: auto;
+}
+
+ul li {
+	list-style: none;
+	display: inline;
+}
+
+ul li label
+{
+    width: 110px;
+    text-align: right;
+    padding: 5px;
+    color: rgb(249, 249, 255);
+    font-size: 1.1em;
+}
+
+.contactError
+{
+    padding-left: 100px;
+    color: red;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+
+.buttonsContact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+}
+
+#submit, #clear
+{
+    padding: 3px;
+    color: darkblue
+}
+
+#message:focus
+{
+    background-color: rgb(18, 102, 241);
+    color: white;
+}
+
+#comentsSection
+{
+    font-size: 1.1em;
+    text-align: center;
+    display: block;
+    margin-left: 20px;
+}
+
+input:focus {
+    color: white;
+    background-color: rgb(18, 102, 241);
+  }
+
+#map 
+{
+    height: 500px;
+    width: 100%;
+}
+
+#footer
+{
+    color: white;
+}
+
+#footerLink p a:hover
+{
+    color: white;
+    background-color: rgb(105, 16, 35);
+}
+
+@media (max-width: 550px) {
+    body::before{
+        display: block;
+        content: '';
+        height: 60px;
+    }
+
+    #titleNav
+    {
+        font-size: 1em;
+    }
+
+        #navmenu
+        {
+            font-size: 1em;
+        }
+
+    #myPortfolio
+    {
+        padding-top: 10px;
+        padding-bottom: 0;
+        margin-left: 20px;
+        margin-bottom: 0;
+        font-size: 1em;
+    }
+
+    #aboutMe
+    {
+        font-size: 0.7em;
+    }
+
+    #figure-sizing
+    {
+        margin-bottom: 3px;
+        width: 300px;
+        height: 55px;
+        padding: 5px;
+        margin-right: 5px;
+    }
+
+    #figure-sizing-p
+    {
+        width: 300px;
+    }
+
+    #buttonContact
+    {
+        font-size: 0.5em;
+        padding: .425rem 0.8rem .325rem;
+    }
+
+    #learn, #learn2, #learnTextBlock, #learnTextBlock2
+    {
+        padding: 20px 5px;
+        text-align: center;
+    }
+
+    #learnTextBlock h2, #learnTextBlock2 h2
+    {
+        font-size: 1.4em;
+    }
+
+    #learnTextBlock p, #learnTextBlock2 p
+    {
+        font-size: 0.9em;
+    }
+
+    #projectBlock, #skillsBlock
+    {
+        font-size: 1.1em;
+    }
+
+    #project1, #project2
+    {
+        font-size: 0.9em;
+    }
+
+    #imgWix1, #imgWix2
+    {
+        padding: 3px;
+        width: 35px;
+        height: 35px;
+    }
+
+    #alignmentProject, #alignmentProject2
+    {
+        margin-bottom: 0px;
+    }
+
+    #sectionContact fieldset
+    {
+        margin: 10px auto;
+    }
+
+    #contactInfo
+    {
+        width: 340px;
+    }
+
+    fieldset input
+    {
+        width: 60%;
+    }
+
+    fieldset ul li 
+    {
+        display: block;
+    }
+
+    ul li label
+    {
+        width: 80px;
+        font-size: 0.9em;
+    }
+
+    #comentsSection
+    {
+        font-size: 0.9em;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .contactError
+    {
+        padding-left: 85px;
+        color: red;
+        text-shadow: 2px 2px 4px rgb(22, 22, 22);
+    }
+
+    #map 
+    {
+        height: 500px;
+        width: 95%;
+    }
+}
+
+
+
